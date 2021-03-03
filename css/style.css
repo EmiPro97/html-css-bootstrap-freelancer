@@ -72,6 +72,10 @@ body{
     height: 500px;
 }
 
+.about-content{
+    height: 400px;
+}
+
 .contact-content{
     height: 400px;
 }
@@ -82,4 +86,10 @@ body{
 
 .second-foot{
     height: 50px;
+}
+
+@media screen and (min-width: 768px){
+    .mr-30{
+        margin-right: 30px;
+    }
 }
