@@ -4,7 +4,25 @@ body{
 }
 
 
+/* UTILITIES */
+.text-center{
+    text-align: center;
+}
+
+.mr-b30{
+    margin-bottom: 30px;
+}
+
+.mr-b60{
+    margin-bottom: 60px;
+}
+
+
 /* COLORS */
+.bg-footer{
+    background-color: #3a546d;
+}
+
 .bg-darkblue{
     background-color: #2c3e50;
 }
@@ -13,6 +31,38 @@ body{
     background-color: #1abc9c;
 }
 
+.bg-card-red{
+    background-color: #ba4b63;
+}
+
+.bg-card-lightblue{
+    background-color: #1ea4b6;
+}
+
+.bg-card-black{
+    background-color: #140f0f;
+}
+
+.bg-card-azure{
+    background-color: #1c83c1;
+}
+
+.bg-card-blue{
+    background-color: #0e38b5;
+}
+
+.bg-card-pink{
+    background-color: #ccb2a3;
+}
+
+/* PORTFOLIO */
+/* Cards */
+.card{
+    height: 350px;
+    border-radius: 15px;
+}
+
+
 /* FAKE CONTENT */
 .main-header{
     height: 90px;
@@ -20,4 +70,16 @@ body{
 
 .hero-content{
     height: 500px;
+}
+
+.contact-content{
+    height: 400px;
+}
+
+.first-foot{
+    height: 300px;
+}
+
+.second-foot{
+    height: 50px;
 }
