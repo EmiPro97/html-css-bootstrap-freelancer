@@ -1,0 +1,23 @@
+/* GENERAL */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* COLORS */
+.bg-darkblue{
+    background-color: #2c3e50;
+}
+
+.bg-green{
+    background-color: #1abc9c;
+}
+
+/* FAKE CONTENT */
+.main-header{
+    height: 90px;
+}
+
+.hero-content{
+    height: 500px;
+}
