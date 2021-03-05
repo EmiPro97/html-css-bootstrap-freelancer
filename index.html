@@ -115,7 +115,7 @@
     <!-- //////////////////////////////////////////////////////////////////////////// -->
 
     <!-- About -->
-    <section class="about-content bg-green">
+    <section class="about-content bg-green mr-b60">
         <div class="container">
             <h2 class="text-center"><strong>ABOUT</strong></h2>
             <div class="my-star-wrap mr-b15 text-center">
@@ -147,19 +147,23 @@
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
                     <form>
-                        <div class="form-group">
-                          <label for="exampleInputEmail1">Email address</label>
-                          <input type="email" class="form-control my-form" id="exampleInputEmail1" placeholder="Email">
+                        <div class="form-group my-form-group">
+                          <label for="name">Name</label>
+                          <input type="name" class="form-control my-form" id="name">
                         </div>
-                        <div class="form-group">
-                          <label for="exampleInputPassword1">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <div class="form-group my-form-group">
+                          <label for="email">Email address</label>
+                          <input type="email" class="form-control my-form" id="email">
                         </div>
-                        <div class="form-group">
+                        <div class="form-group my-form-group">
+                          <label for="phone-number">Phone Number</label>
+                          <input type="phone-number" class="form-control my-form" id="phone-number">
+                        </div>
+                        <div class="form-group my-form-group">
                             <label for="message">Message</label>
-                            <textarea id="message" class="form-control" type="message" placeholder="Insert text..." rows="7"></textarea>
+                            <textarea id="message" class="form-control my-form" type="message" placeholder="Insert text..." rows="7"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-default">Send</button>
+                        <button type="submit" class="btn btn-default bg-green my-btn">Send</button>
                     </form>
                 </div>
             </div>
@@ -174,13 +178,21 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-4">
-                        <h3>LOCATION</h3>
+                        <h4>LOCATION</h4>
+                        <p class="mr-b30">2215 John Daniel Drive Clark, MO 65243</p>
                     </div>
                     <div class="col-xs-12 col-sm-4">
-                        <h3>AROUND THE WEB</h3>
+                        <h4>AROUND THE WEB</h4>
+                        <ul class="my-inline-list mr-b30">
+                            <li class="mr-r15"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="mr-r15"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li class="mr-r15"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
                     </div>
                     <div class="col-xs-12 col-sm-4">
-                        <h3>ABOUT FREELANCER</h3>
+                        <h4>ABOUT FREELANCER</h4>
+                        <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
                     </div>
                 </div>
             </div>
@@ -188,7 +200,7 @@
 
         <!-- Second-foot -->
         <section class="second-foot bg-darkblue">
-            <div>Copyright</div>
+            <div>Copyright © Your Website 2020</div>
         </section>  
     </footer>
 </body>
