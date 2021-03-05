@@ -81,32 +81,32 @@
             <div class="row">
                 <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mr-b30">
                     <div class="card bg-card-red">
-                        <img class="img-responsive" src="./img/cabin.png" alt="cabine-img">
+                        <img class="img-responsive img-rounded" src="./img/cabin.png" alt="cabine-img">
                     </div>
                 </div>
                 <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mr-b30">
                     <div class="card bg-card-lightblue">
-                        <img class="img-responsive" src="./img/cake.png" alt="cabine-img">
+                        <img class="img-responsive img-rounded" src="./img/cake.png" alt="cabine-img">
                     </div>
                 </div>
                 <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mr-b30">
                     <div class="card bg-card-black">
-                        <img class="img-responsive" src="./img/circus.png" alt="cabine-img">
+                        <img class="img-responsive img-rounded" src="./img/circus.png" alt="cabine-img">
                     </div>
                 </div>
                 <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mr-b30">
                     <div class="card bg-card-azure">
-                        <img class="img-responsive" src="./img/game.png" alt="cabine-img">
+                        <img class="img-responsive img-rounded" src="./img/game.png" alt="cabine-img">
                     </div>
                 </div>
                 <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mr-b30">
                     <div class="card bg-card-blue">
-                        <img class="img-responsive" src="./img/safe.png" alt="cabine-img">
+                        <img class="img-responsive img-rounded" src="./img/safe.png" alt="cabine-img">
                     </div>
                 </div>
                 <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mr-b60">
                     <div class="card bg-card-pink">
-                        <img class="img-responsive" src="./img/submarine.png" alt="cabine-img">
+                        <img class="img-responsive img-rounded" src="./img/submarine.png" alt="cabine-img">
                     </div>
                 </div>
             </div>
@@ -117,14 +117,18 @@
     <!-- About -->
     <section class="about-content bg-green">
         <div class="container">
-            <h2 class="text-center">ABOUT</h2>
-            <div><hr></div>
-            <div class="row">
-                <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 mr-b30">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, itaque, praesentium fuga recusandae dolores aliquid laborum delectus blanditiis officiis dolor molestiae a error tenetur quo, officia nemo eum quos eos.</div>
-                <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 mr-b30">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, itaque, praesentium fuga recusandae dolores aliquid laborum delectus blanditiis officiis dolor molestiae a error tenetur quo, officia nemo eum quos eos.</div>
+            <h2 class="text-center"><strong>ABOUT</strong></h2>
+            <div class="my-star-wrap mr-b15 text-center">
+                <hr>
+                <div class="my-icon-wrap"><i class="fas fa-star my-icon"></i></div>
+                <hr>
+            </div> 
+            <div class="row my-about-text">
+                <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 mr-b30">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</div>
+                <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 mr-b60">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</div>
                 <div class="clearfix"></div>
                 <div class="text-center">
-                    <a href="#">Download</a>
+                    <a class="btn btn-default my-btn bg-green" href="#"><i class="fas fa-download"></i>Download</a>
                 </div>
             </div>
         </div>
@@ -133,18 +137,30 @@
 
     <!-- Contact -->
     <section class="contact-content mr-b30">
-        <h2 class="text-center">CONTACT ME</h2>
-        <div><hr></div>
+        <h2 class="text-center"><strong>CONTACT ME</strong></h2>
+        <div class="my-star-wrap mr-b15 text-center">
+            <hr>
+            <div class="my-icon-wrap"><i class="fas fa-star my-icon"></i></div>
+            <hr>
+        </div> 
         <div class="container">
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
-                    <p>lorem ipsum dolor sit</p>
-                    <p>lorem ipsum dolor sit</p>
-                    <p>lorem ipsum dolor sit</p>
-                    <p>lorem ipsum dolor sit</p>
-                </div>
-                <div class="col-xs-8 col-xs-offset-2">
-                    <a href="#">Send</a>
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control my-form" id="exampleInputEmail1" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" type="message" placeholder="Insert text..." rows="7"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-default">Send</button>
+                    </form>
                 </div>
             </div>
         </div>
