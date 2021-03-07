@@ -1,4 +1,8 @@
 /* GENERAL */
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     padding-top: 80px;
@@ -160,6 +164,47 @@ hr{
 .portfolio hr{
     border-color: #2c3e50;
 }
+
+.portfolio .card{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* Layover on cards */
+.portfolio .card .layover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #1abc9c73;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.portfolio .card .layover:hover{
+    opacity: 1;
+}
+
+.portfolio .layover .my-plus-icon{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    opacity: 0;
+    font-size: 40px;
+    color: #fff;
+    transition: opacity 0.5s,
+                bottom 0.7s;
+}
+
+.portfolio .layover:hover .my-plus-icon{
+    opacity: 1;
+    bottom: 50%;
+    
+}
 /* /////////////////////////////////////////////////////////// */
 
 /* ABOUT */
@@ -293,7 +338,7 @@ hr{
 /* RESPONSIVE */
 /* From tablet to desktop */
 @media screen and (min-width: 768px){
-    
+
     h2{
         font-size: 45px;
     }
