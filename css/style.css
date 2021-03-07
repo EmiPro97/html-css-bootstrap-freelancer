@@ -6,6 +6,7 @@ body{
 /* /////////////////////////////////////////////////////////// */
 
 /* UTILITIES */
+
 .mr-b15{
     margin-bottom: 15px;
 }
@@ -288,3 +289,67 @@ hr{
     padding-bottom: 45px;
 }
 /* /////////////////////////////////////////////////////////// */
+
+/* RESPONSIVE */
+/* From tablet to desktop */
+@media screen and (min-width: 768px){
+    
+    h2{
+        font-size: 45px;
+    }
+
+    h4{
+        font-size: 25px;
+    }
+
+    hr{
+        margin: 50px 0;
+    }
+/* /////////////////////////////////////////////////////////// */
+
+    .my-icon{
+        font-size: 40px;
+    }
+
+    .my-icon-wrap{
+        padding: 15px;
+    }
+/* /////////////////////////////////////////////////////////// */
+    
+    .portfolio{
+        margin-bottom: 80px;
+    }
+/* /////////////////////////////////////////////////////////// */
+    
+    .about-content{
+        margin-bottom: 80px;
+    }
+/* /////////////////////////////////////////////////////////// */
+
+    .navbar-default .navbar-brand.my-nav-title{
+        font-size: 28px;
+    }
+
+    .navbar-default .navbar-right.my-nav-text{
+        font-size: 18px;
+    }
+/* /////////////////////////////////////////////////////////// */
+
+    .hero-content{
+        padding: 60px 0;
+        margin-bottom: 80px;
+    }
+
+    .hero-content h1{
+        font-size: 60px;
+    }
+
+    .hero-content .hero-info{
+        font-size: 30px;
+    }
+/* /////////////////////////////////////////////////////////// */
+
+    .my-form-group label{
+        font-size: 22px;
+    }
+}   
